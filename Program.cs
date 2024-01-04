@@ -12,6 +12,8 @@ namespace NE21_291T35TN
         //viet code ngoai ham main
         static void Main(string[] args)
         {
+            //Link tai lieu ve bien:
+            //https://codegym.vn/blog/cac-kieu-du-lieu-trong-c
             Console.OutputEncoding = Encoding.UTF8;
             //bat dau viet code o day
             //Console.Write("Xin chào, đây là chương trình đầu tiên!. Write");
