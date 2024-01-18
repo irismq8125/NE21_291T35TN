@@ -19,16 +19,19 @@ namespace NE21_291T35TN
 
             //Console.WriteLine(b);
             //Console.WriteLine(a);
-            //tinh tong cac so chia het cho 5 hoac chia het cho 7???
+            //tinh tong cac so chia het cho 5 hoac chia het cho 7
+
+            
+
             int tong = 0;
             for (int i = 1; i <= 100; i = i + 2)
             {
-                if(i % 5 == 0 || i % 7 == 0)
+                if (i % 5 == 0 || i % 7 == 0)
                 {
                     Console.WriteLine(i);
                     tong += i;
                 }
-                //tong = tong + i;
+                tong = tong + i;
             }
             Console.WriteLine("Tong day so chan la {0}", tong);
 
